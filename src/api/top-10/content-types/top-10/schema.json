@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "top_10s",
+  "info": {
+    "singularName": "top-10",
+    "pluralName": "top-10s",
+    "displayName": "TOP 10",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "rank": {
+      "type": "integer",
+      "required": true,
+      "max": 10,
+      "default": 10
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "slug": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::slug.slug",
+      "inversedBy": "top_10s"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blog_descriptions",
+  "info": {
+    "singularName": "blog-description",
+    "pluralName": "blog-descriptions",
+    "displayName": "Blog description",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "minLength": 5,
+      "required": true,
+      "maxLength": 100
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "slug": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::slug.slug"
+    },
+    "categories": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::category.category",
+      "mappedBy": "blog_description"
+    }
+  }
+}

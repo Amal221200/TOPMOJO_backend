@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "website_descriptions",
+  "info": {
+    "singularName": "website-description",
+    "pluralName": "website-descriptions",
+    "displayName": "Website Description"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

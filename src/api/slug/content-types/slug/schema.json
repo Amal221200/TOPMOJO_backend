@@ -17,12 +17,6 @@
       "required": true,
       "unique": true,
       "minLength": 3
-    },
-    "top_10s": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::top-10.top-10",
-      "mappedBy": "slug"
     }
   }
 }

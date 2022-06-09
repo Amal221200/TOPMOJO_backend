@@ -1659,7 +1659,7 @@
     "@strapi/utils" "4.1.12"
     lodash "4.17.21"
 
-"@strapi/plugin-i18n@4.1.12":
+"@strapi/plugin-i18n@^4.1.12":
   version "4.1.12"
   resolved "https://registry.yarnpkg.com/@strapi/plugin-i18n/-/plugin-i18n-4.1.12.tgz#e6e7aae8a12724e2a67fbc02af9b53cb1ea4fc5e"
   integrity sha512-RvCGJRQnkLJp0yKD0g3xYxpxQ5EcBccsgALeke86Jlz86Qt8/IIn2NEWoLWmXSumipCzoG23WW/YDxXfQU5EyQ==
@@ -1692,7 +1692,7 @@
     react-router-dom "5.2.0"
     sharp "0.30.4"
 
-"@strapi/plugin-users-permissions@4.1.12":
+"@strapi/plugin-users-permissions@^4.1.12":
   version "4.1.12"
   resolved "https://registry.yarnpkg.com/@strapi/plugin-users-permissions/-/plugin-users-permissions-4.1.12.tgz#9d48fddd0744691ff73c10b3af569e32fadd9ec2"
   integrity sha512-fY7f6gjQ7UKDyVL5TK0PPTitk0aJuUXknbiLA7VsBaDUiAma+3MV5CtX06SlEHRjsPn3PJRG0fKctKVlKcEpHg==
@@ -1740,7 +1740,7 @@
     "@strapi/utils" "4.1.12"
     fs-extra "10.0.0"
 
-"@strapi/strapi@4.1.12":
+"@strapi/strapi@^4.1.12":
   version "4.1.12"
   resolved "https://registry.yarnpkg.com/@strapi/strapi/-/strapi-4.1.12.tgz#57dc568efedd868873615eb6a3afbac8d0067ec2"
   integrity sha512-vjGE5r0r6wtwA4ixcIZTc2dLRqkPZ22hxM7naUw3lUXynK3GlyyDMASJUMTXRAcxsF/eNrZz2779XgpyPdO8bA==
